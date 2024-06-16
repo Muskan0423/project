@@ -1,0 +1,57 @@
+.oj-item {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+  
+  .oj-item-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left {
+    max-width: 60%;
+  }
+  
+  .right {
+    max-width: 35%;
+    text-align: right;
+  }
+  
+  .hidden-xs {
+    display: none;
+  }
+  
+  .visible-xs {
+    display: block;
+  }
+  
+  .profile {
+    margin-top: 20px;
+  }
+  
+  .image-infomartion {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .oj-slide-nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .oj-nav-item {
+    margin: 0 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .oj-nav-item span {
+    font-size: 1.2em;
+  }
+  

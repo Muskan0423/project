@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 60px;
+    width:150px;
+    margin-right: 20px;
+  }
+  
+  .navbar-logo span {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: top right;
+    margin-right: 30px;
+  }
+  
+  .language-select {
+    margin-right: 20px;
+  }
+  
+  .join-link, .donate-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .donate-link {
+    background-color: #f0c040;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
